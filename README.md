@@ -113,7 +113,7 @@ This is an example of how to list things you need to use the software and how to
 ### Update Existing Installation (Quickest)
 
 1. Extract the workflow zip file
-2. Copy the `update-comfyui.bat` file to your `ComfyUI/` directory
+2. Copy the `update-comfyui.bat` file to your `ComfyUI_windows_portable/` directory
 3. Double click the `update-comfyui.bat` file to run the script
 4. Wait while the script updates ComfyUI, custom nodes, and all dependencies to their latest version
 5. Start ComfyUI by running the `run_nvidia_gpu.bat` file
