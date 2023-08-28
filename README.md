@@ -95,7 +95,7 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* Download the included zip file containing the latest SDXL Ultimate Workflow files
+* Download the latest workflow release zip file [SDXL-ULTIMATE-WORKFLOW.zip](https://github.com/BeTheRobotSD/sdxl-comfyui-ultimate-workflow/releases)
 * Install Git at [git-scm.com](https://git-scm.com/download/win)
 
 ### Clean Installation (Recommended)
