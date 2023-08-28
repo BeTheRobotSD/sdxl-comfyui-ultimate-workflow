@@ -67,7 +67,7 @@
 
 SDXL Ultimate Workflow is a powerful and versatile workflow that allows you to create stunning images with SDXL 1.0 and SD 1.5. Whether you want to generate realistic portraits, landscapes, animals, or anything else, you can do it with this workflow. You can use multiple Checkpoints, LoRAs/LyCORIS, ControlNets, and more to create complex image generation flows with ease.
 
-SDXL Ultimate Workflow has many features that make it easy to use and set up. With the included install script and update script, you can set get started with one click. Inside the workflow, you can use the quick settings controls to adjust the settings for each image generation and processing module. You can also use the AfterDetailer to fix the faces, hands, and bodies of your generated images, or use the Face Restore included in each module to touch up the results. The included metadata extractor application gives you the ability to quickly view and save the image metadata in Automatic1111 format, which adds autofill for CivitAI uploads.
+This workflow has many features that make it easy to use and set up. With the included install script and update script, you can set get started with one click. Inside the workflow, you can use the quick settings controls to adjust the settings for each image generation and processing module. You can also use the AfterDetailer to fix the faces, hands, and bodies of your generated images, or use the Face Restore included in each module to touch up the results. The included metadata extractor application gives you the ability to quickly view and save the image metadata in Automatic1111 format, which adds autofill for CivitAI uploads.
 
 SDXL Ultimate Workflow is the best and most complete single workflow that exists for SDXL 1.0 and SD 1.5. It has many upscaling options, such as img2img upscaling and Ultimate SD Upscale upscaling. It also has full inpainting support to make custom changes to your generations.
 
@@ -201,7 +201,7 @@ Project Link: [https://github.com/BeTheRobotSD/sdxl-comfyui-ultimate-workflow](h
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Nodes, tools, and extensions used in this workflow.
 
 * [ComfyUI Impact Pack](https://github.com/ltdrdata/ComfyUI-Impact-Pack)
 * [WAS Node Suite](https://github.com/WASasquatch/was-node-suite-comfyui)
