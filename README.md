@@ -22,7 +22,7 @@
     <a href="https://github.com/BeTheRobotSD/sdxl-comfyui-ultimate-workflow"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/BeTheRobotSD/sdxl-comfyui-ultimate-workflow">View Demo</a>
+    <a href="https://discord.gg/PWSwFHAYRJ">Join Discord</a>
     ·
     <a href="https://github.com/BeTheRobotSD/sdxl-comfyui-ultimate-workflow/issues">Report Bug</a>
     ·
@@ -71,7 +71,7 @@ This workflow has many features that make it easy to use and set up. With the in
 
 SDXL Ultimate Workflow is the best and most complete single workflow that exists for SDXL 1.0 and SD 1.5. It has many upscaling options, such as img2img upscaling and Ultimate SD Upscale upscaling. It also has full inpainting support to make custom changes to your generations.
 
-If you have any questions or feedback about SDXL Ultimate Workflow, please feel free to contact us at betherobot.sd@gmail.com. We would love to hear from you and help you with any issues you may have. Thank you for choosing the SDXL Ultimate Workflow as your image generation tool!
+If you have any questions or feedback about SDXL Ultimate Workflow, please feel free to contact us on [Discord](https://discord.gg/PWSwFHAYRJ). We would love to hear from you and help you with any issues you may have. Thank you for choosing the SDXL Ultimate Workflow as your image generation tool!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -190,7 +190,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-BeTheRobot - [@BeTheRobot](https://civitai.com/user/BeTheRobot/models) - betherobot.sd@gmail.com
+BeTheRobot - [@BeTheRobot](https://civitai.com/user/BeTheRobot/models) - [Discord](https://discord.gg/PWSwFHAYRJ) - betherobot.sd@gmail.com
 
 Project Link: [https://github.com/BeTheRobotSD/sdxl-comfyui-ultimate-workflow](https://github.com/BeTheRobotSD/sdxl-comfyui-ultimate-workflow)
 
