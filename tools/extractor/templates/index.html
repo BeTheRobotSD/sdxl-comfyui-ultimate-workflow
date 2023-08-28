@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+    <title>SDXL Ultimate v3.2 Metadata Extractor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        h1 {
+            text-align: center;
+        }
+        #drop_zone {
+            border: 2px dashed #bbb;
+            border-radius: 5px;
+            padding: 25px;
+            text-align: center;
+            font: 20pt bold 'Helvetica';
+            color: #bbb;
+            height: 100%;
+        }
+        #txt2img {
+            border: 2px dashed #bbb;
+            border-radius: 5px;
+            padding: 25px;
+            text-align: left;
+            font: 20pt bold 'Helvetica';
+            color: #000000;
+        }
+        #txt2img h2 {
+            text-align:center;
+        }
+        #txt2img button {
+            text-align:right;
+        }
+        #img2img {
+            border: 2px dashed #bbb;
+            border-radius: 5px;
+            padding: 25px;
+            text-align: left;
+            font: 20pt bold 'Helvetica';
+            color: #000000;
+        }
+        #img2img h2 {
+            text-align:center;
+        }
+        #usdu {
+            border: 2px dashed #bbb;
+            border-radius: 5px;
+            padding: 25px;
+            text-align: left;
+            font: 20pt bold 'Helvetica';
+            color: #000000;
+        }
+        #usdu h2 {
+            text-align:center;
+        }
+        #after_detailer {
+            border: 2px dashed #bbb;
+            border-radius: 5px;
+            padding: 25px;
+            text-align: left;
+            font: 20pt bold 'Helvetica';
+            color: #000000;
+        }
+        #after_detailer h2 {
+            text-align:center;
+        }
+        #inpaint {
+            border: 2px dashed #bbb;
+            border-radius: 5px;
+            padding: 25px;
+            text-align: left;
+            font: 20pt bold 'Helvetica';
+            color: #000000;
+        }
+        #inpaint h2 {
+            text-align:center;
+        }
+        #output {
+            font-size: 20pt;
+        }
+    </style>
+</head>
+<body>
+    <h1>SDXL Ultimate v3.2 Metadata Extractor</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-lg-6">
+                <div id="drop_zone">
+                    <h2>Drop image here</h2>
+                    <div id="image"></div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <div class="row">
+                    <div id="txt2img" class="col-sm-12 col-md-6">
+                        <h2>Txt2Img Prompt</h2>
+                        <div class="text-center">
+                            <button id="save_button_txt2img" class="btn btn-secondary btn-sm">Save with Prompt</button>
+                        </div>
+                        <div id="prompt_txt2img"></div>
+                    </div>
+                    <div id="img2img" class="col-sm-12 col-md-6">
+                        <h2>Img2Img Prompt</h2>
+                        <div class="text-center">
+                            <button id="save_button_img2img" class="btn btn-secondary btn-sm">Save with Prompt</button>
+                        </div>
+                        <div id="prompt_img2img"></div>
+                    </div>
+                    <div id="usdu" class="col-sm-12 col-md-6">
+                        <h2>Ultimate SD Upscale Prompt</h2>
+                        <div class="text-center">
+                            <button id="save_button_usdu" class="btn btn-secondary btn-sm">Save with Prompt</button>
+                        </div>
+                        <div id="prompt_usdu"></div>
+                    </div>
+                    <div id="after_detailer" class="col-sm-12 col-md-6">
+                        <h2>After Detailer Prompt</h2>
+                        <div class="text-center">
+                            <button id="save_button_after_detailer" class="btn btn-secondary btn-sm">Save with Prompt</button>
+                        </div>
+                        <div id="prompt_after_detailer"></div>
+                    </div>
+                    <div id="inpaint" class="col-sm-12 col-md-6">
+                        <h2>Inpaint Prompt</h2>
+                        <div class="text-center">
+                            <button id="save_button_inpaint" class="btn btn-secondary btn-sm">Save with Prompt</button>
+                        </div>
+                        <div id="prompt_inpaint"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="output"></div>
+    <script>
+        let currentImage = null;
+        let txt2imgPrompt = "";
+        let img2imgPrompt = "";
+        let usduPrompt = "";
+        let afterdetailerPrompt = "";
+        let inpaintPrompt = "";
+
+        function handleFileSelect(evt) {
+            evt.stopPropagation();
+            evt.preventDefault();
+            var files = evt.dataTransfer.files;
+            var output = [];
+            for (var i = 0, f; f = files[i]; i++) {
+                currentImage = f;
+                var reader = new FileReader();
+                reader.onload = (function(theFile) {
+                    return function(e) {
+                        var data = e.target.result;
+                        var img = document.createElement('img');
+                        img.classList.add("img-fluid")
+                        img.src = data;
+                        document.getElementById('image').innerHTML = ''
+                        document.getElementById('image').appendChild(img);
+                        var formData = new FormData();
+                        formData.append('file', theFile);
+                        var xhr = new XMLHttpRequest();
+                        xhr.responseType = 'json'
+                        xhr.open('POST', '/upload', true);
+                        xhr.onreadystatechange = function() {
+                            if (xhr.readyState == XMLHttpRequest.DONE) {
+                                resp = xhr.response
+
+                                txt2imgButton = document.getElementById('save_button_txt2img');
+                                img2imgButton = document.getElementById('save_button_img2img');
+                                usduButton = document.getElementById('save_button_usdu');
+                                afterDetailerButton = document.getElementById('save_button_after_detailer');
+                                inpaintButton = document.getElementById('save_button_inpaint');
+
+                                txt2imgButton.promptData = "{}"
+                                img2imgButton.promptData = "{}"
+                                usduButton.promptData = "{}"
+                                afterDetailerButton.promptData = "{}"
+                                inpaintButton.promptData = "{}"
+
+                                for (const key in resp) {
+                                    if (resp.hasOwnProperty(key)) {
+                                        if (key == "error") {
+                                            document.getElementById('prompt_txt2img').innerHTML = resp[key]
+                                            document.getElementById('prompt_img2img').innerHTML = resp[key]
+                                            document.getElementById('prompt_usdu').innerHTML = resp[key]
+                                            document.getElementById('prompt_after_detailer').innerHTML = resp[key]
+                                            document.getElementById('prompt_inpaint').innerHTML = resp[key]
+                                            break
+                                        }
+
+                                        if (key == "txt2img") {
+                                            txt2imgButton.promptData = JSON.stringify(resp[key])
+                                            if (isEmpty(resp[key])) {
+                                                document.getElementById('prompt_txt2img').innerHTML = "No exifdata available."
+                                                continue
+                                            }
+                                            output_str = `<b>Seed:</b> ${resp[key]['seed']}`
+                                            output_str += `<br/><b>Steps:</b> ${resp[key]['steps']}`
+                                            output_str += `<br/><b>Base CFG:</b> ${resp[key]['base_cfg']}`
+                                            output_str += `<br/><b>Base Sampler:</b> ${resp[key]['base_sampler_name']}`
+                                            output_str += `<br/><b>Base Scheduler:</b> ${resp[key]['base_scheduler']}`
+                                            output_str += `<br/><b>Base Checkpoint:</b> ${resp[key]['base_checkpoint']}`
+                                            output_str += `<br/><b>Refiner CFG:</b> ${resp[key]['refiner_cfg']}`
+                                            output_str += `<br/><b>Refiner Sampler:</b> ${resp[key]['refiner_sampler_name']}`
+                                            output_str += `<br/><b>Refiner Scheduler:</b> ${resp[key]['refiner_scheduler']}`
+                                            output_str += `<br/><b>Refiner Checkpoint:</b> ${resp[key]['refiner_checkpoint']}`
+                                            output_str += `<br/><b>Prompt Style:</b> ${resp[key]['prompt_style']}`
+                                            output_str += `<br/><b>Primary Prompt:</b> ${resp[key]['primary_prompt']}`
+                                            output_str += `<br/><b>Secondary Prompt:</b> ${resp[key]['secondary_prompt']}`
+                                            output_str += `<br/><b>Negative Prompt:</b> ${resp[key]['negative_prompt']}`
+                                            document.getElementById('prompt_txt2img').innerHTML = output_str
+                                        } else if (key == "img2img") {
+                                            img2imgButton.promptData = JSON.stringify(resp[key])
+                                            if (isEmpty(resp[key])) {
+                                                document.getElementById('prompt_img2img').innerHTML = "No exifdata available."
+                                                continue
+                                            }
+                                            output_str = `<b>Seed:</b> ${resp[key]['seed']}`
+                                            output_str += `<br/><b>Steps:</b> ${resp[key]['steps']}`
+                                            output_str += `<br/><b>CFG:</b> ${resp[key]['cfg']}`
+                                            output_str += `<br/><b>Denoise:</b> ${resp[key]['denoise']}`
+                                            output_str += `<br/><b>Sampler:</b> ${resp[key]['sampler_name']}`
+                                            output_str += `<br/><b>Scheduler:</b> ${resp[key]['scheduler']}`
+                                            output_str += `<br/><b>Checkpoint:</b> ${resp[key]['checkpoint']}`
+                                            output_str += `<br/><b>Prompt Style:</b> ${resp[key]['prompt_style']}`
+                                            output_str += `<br/><b>Primary Prompt:</b> ${resp[key]['primary_prompt']}`
+                                            output_str += `<br/><b>Secondary Prompt:</b> ${resp[key]['secondary_prompt']}`
+                                            output_str += `<br/><b>Negative Prompt:</b> ${resp[key]['negative_prompt']}`
+                                            document.getElementById('prompt_img2img').innerHTML = output_str
+                                        } else if (key == "ultimate_sd_upscale") {
+                                            usduButton.promptData = JSON.stringify(resp[key])
+                                            if (isEmpty(resp[key])) {
+                                                document.getElementById('prompt_usdu').innerHTML = "No exifdata available."
+                                                continue
+                                            }
+                                            output_str = `<b>Seed:</b> ${resp[key]['seed']}`
+                                            output_str += `<br/><b>Steps:</b> ${resp[key]['steps']}`
+                                            output_str += `<br/><b>CFG:</b> ${resp[key]['cfg']}`
+                                            output_str += `<br/><b>Denoise:</b> ${resp[key]['denoise']}`
+                                            output_str += `<br/><b>Sampler:</b> ${resp[key]['sampler_name']}`
+                                            output_str += `<br/><b>Scheduler:</b> ${resp[key]['scheduler']}`
+                                            output_str += `<br/><b>Checkpoint:</b> ${resp[key]['checkpoint']}`
+                                            output_str += `<br/><b>Upscale Model:</b> ${resp[key]['upscale_model']}`
+                                            output_str += `<br/><b>Prompt Style:</b> ${resp[key]['prompt_style']}`
+                                            output_str += `<br/><b>Primary Prompt:</b> ${resp[key]['primary_prompt']}`
+                                            output_str += `<br/><b>Secondary Prompt:</b> ${resp[key]['secondary_prompt']}`
+                                            output_str += `<br/><b>Negative Prompt:</b> ${resp[key]['negative_prompt']}`
+                                            document.getElementById('prompt_usdu').innerHTML = output_str
+                                        } else if (key == "after_detailer") {
+                                            afterDetailerButton.promptData = JSON.stringify(resp[key])
+                                            if (isEmpty(resp[key])) {
+                                                document.getElementById('prompt_after_detailer').innerHTML = "No exifdata available."
+                                                continue
+                                            }                                            
+                                            output_str = `<b>Seed:</b> ${resp[key]['seed']}`
+                                            output_str += `<br/><b>Steps:</b> ${resp[key]['steps']}`
+                                            output_str += `<br/><b>CFG:</b> ${resp[key]['cfg']}`
+                                            output_str += `<br/><b>Denoise:</b> ${resp[key]['denoise']}`
+                                            output_str += `<br/><b>Sampler:</b> ${resp[key]['sampler_name']}`
+                                            output_str += `<br/><b>Scheduler:</b> ${resp[key]['scheduler']}`
+                                            output_str += `<br/><b>Checkpoint:</b> ${resp[key]['checkpoint']}`
+                                            output_str += `<br/><b>Detector Model:</b> ${resp[key]['detector_model']}`
+                                            output_str += `<br/><b>Prompt Style:</b> ${resp[key]['prompt_style']}`
+                                            output_str += `<br/><b>Primary Prompt:</b> ${resp[key]['primary_prompt']}`
+                                            output_str += `<br/><b>Secondary Prompt:</b> ${resp[key]['secondary_prompt']}`
+                                            output_str += `<br/><b>Negative Prompt:</b> ${resp[key]['negative_prompt']}`
+                                            document.getElementById('prompt_after_detailer').innerHTML = output_str
+                                        } else if (key == "inpaint") {
+                                            inpaintButton.promptData = JSON.stringify(resp[key])
+                                            if (isEmpty(resp[key])) {
+                                                document.getElementById('prompt_inpaint').innerHTML = "No exifdata available."
+                                                continue
+                                            }
+                                            output_str = `<b>Seed:</b> ${resp[key]['seed']}`
+                                            output_str += `<br/><b>Steps:</b> ${resp[key]['steps']}`
+                                            output_str += `<br/><b>CFG:</b> ${resp[key]['cfg']}`
+                                            output_str += `<br/><b>Denoise:</b> ${resp[key]['denoise']}`
+                                            output_str += `<br/><b>Sampler:</b> ${resp[key]['sampler_name']}`
+                                            output_str += `<br/><b>Scheduler:</b> ${resp[key]['scheduler']}`
+                                            output_str += `<br/><b>Checkpoint:</b> ${resp[key]['checkpoint']}`
+                                            output_str += `<br/><b>Prompt Style:</b> ${resp[key]['prompt_style']}`
+                                            output_str += `<br/><b>Primary Prompt:</b> ${resp[key]['primary_prompt']}`
+                                            output_str += `<br/><b>Secondary Prompt:</b> ${resp[key]['secondary_prompt']}`
+                                            output_str += `<br/><b>Negative Prompt:</b> ${resp[key]['negative_prompt']}`
+                                            document.getElementById('prompt_inpaint').innerHTML = output_str
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        xhr.send(formData);
+                    };
+                })(f);
+                reader.readAsDataURL(f);
+            }
+        }
+        function handleDragOver(evt) {
+            evt.stopPropagation();
+            evt.preventDefault();
+            evt.dataTransfer.dropEffect = 'copy';
+        }
+        function handleSave(evt) {
+            elem = document.getElementById(evt.currentTarget.id)
+            elem.disabled = true
+            if (currentImage) {
+                var prompt = evt.currentTarget.promptData
+                if (prompt == "{}") {
+                    swapClasses(elem, "btn-danger", "btn-secondary")
+                    setTimeout(swapClasses.bind(null, elem, "btn-secondary", "btn-danger", true), 2000)
+                    return
+                }
+
+                var formData = new FormData();
+                formData.append('file', currentImage);
+                formData.append('prompt', prompt);
+                var xhr = new XMLHttpRequest();
+                xhr.responseType = 'json'
+                xhr.open('POST', '/save', true);
+                xhr.onreadystatechange = function() {
+                    if (xhr.readyState == XMLHttpRequest.DONE) {
+                        if (xhr.status == 200) {
+                            swapClasses(elem, "btn-success", "btn-secondary")
+                            setTimeout(swapClasses.bind(null, elem, "btn-secondary", "btn-success", true), 2000)
+                        } else {
+                            swapClasses(elem, "btn-danger", "btn-secondary")
+                            setTimeout(swapClasses.bind(null, elem, "btn-secondary", "btn-danger", true), 2000)
+                        }
+                    }
+                }
+                xhr.send(formData);
+            } else {
+                swapClasses(elem, "btn-danger", "btn-secondary")
+                setTimeout(swapClasses.bind(null, elem, "btn-secondary", "btn-danger", true), 2000)
+            }
+        }
+        function isEmpty(obj) {
+            for (const prop in obj) {
+                if (Object.hasOwn(obj, prop)) {
+                return false;
+                }
+            }
+
+            return true;
+        }
+        function swapClasses(elem, add, remove, enable=false) {
+            elem.classList.add(add)
+            elem.classList.remove(remove)
+            
+            if (enable) {
+                elem.disabled = false
+            }
+        }
+
+        var dropZone = document.getElementById('drop_zone');
+        dropZone.addEventListener('dragover', handleDragOver, false);
+        dropZone.addEventListener('drop', handleFileSelect, false);
+        
+        var saveButtonTxt2Img = document.getElementById('save_button_txt2img');
+        var saveButtonImg2Img = document.getElementById('save_button_img2img');
+        var saveButtonUSDU = document.getElementById('save_button_usdu');
+        var saveButtonAfterDetailer = document.getElementById('save_button_after_detailer');
+        var saveButtonInpaint = document.getElementById('save_button_inpaint');
+        saveButtonTxt2Img.addEventListener('click', handleSave, false);
+        saveButtonImg2Img.addEventListener('click', handleSave, false);
+        saveButtonUSDU.addEventListener('click', handleSave, false);
+        saveButtonAfterDetailer.addEventListener('click', handleSave, false);
+        saveButtonInpaint.addEventListener('click', handleSave, false);
+    </script>
+</body>
+</html>
