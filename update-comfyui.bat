@@ -36,7 +36,7 @@ if not exist update.py (
 	exit
 )
 
-:: Update ComfyUI
+ECHO Update ComfyUI
 ..\python_embeded\python.exe .\update.py ..\ComfyUI\
 
 cd ..
@@ -47,6 +47,7 @@ cd .\ComfyUI\custom_nodes
 :: Check if Comfyroll CustomNodes exists to update else install it
 if exist ComfyUI_Comfyroll_CustomNodes\ (
   cd ComfyUI_Comfyroll_CustomNodes
+  git reset --hard
   git pull
   cd ..
 ) else (
@@ -56,6 +57,7 @@ if exist ComfyUI_Comfyroll_CustomNodes\ (
 :: Check if ComfyUI-Impact-Pack exists to update else install it
 if exist ComfyUI-Impact-Pack\ (
 	cd ComfyUI-Impact-Pack
+	git reset --hard
 	git pull
 	cd ..
 ) else (
@@ -81,6 +83,7 @@ cd ..
 :: Check if was-node-suite-comfyui exists to update else install it
 if exist was-node-suite-comfyui\ (
 	cd was-node-suite-comfyui
+	git reset --hard
 	git pull
 	cd ..
 ) else (
@@ -99,6 +102,7 @@ cd ..
 :: Check if sdxl_prompt_styler exists to update else install it
 if exist sdxl_prompt_styler\ (
 	cd sdxl_prompt_styler
+	git reset --hard
 	git pull
 	cd ..
 ) else (
@@ -108,6 +112,7 @@ if exist sdxl_prompt_styler\ (
 :: Check if ComfyUI_UltimateSDUpscale exists to update else install it
 if exist ComfyUI_UltimateSDUpscale\ (
 	cd ComfyUI_UltimateSDUpscale
+	git reset --hard
 	git pull
 	cd ..
 ) else (
@@ -117,6 +122,7 @@ if exist ComfyUI_UltimateSDUpscale\ (
 :: Check if efficiency-nodes-comfyui exists to update else install it
 if exist efficiency-nodes-comfyui\ (
 	cd efficiency-nodes-comfyui
+	git reset --hard
 	git pull
 	cd ..
 ) else (
@@ -126,6 +132,7 @@ if exist efficiency-nodes-comfyui\ (
 :: Check if comfyui_controlnet_aux exists to update else install it
 if exist comfyui_controlnet_aux\ (
 	cd comfyui_controlnet_aux
+	git reset --hard
 	git pull
 	cd ..
 ) else (
@@ -150,6 +157,7 @@ ECHO Get simpleeval package as it has trouble loading first time
 :: Check if failfast-comfyui-extensions exists to update else install it
 if exist failfast-comfyui-extensions\ (
 	cd failfast-comfyui-extensions
+	git reset --hard
 	git pull
 	cd ..
 ) else (
@@ -159,6 +167,7 @@ if exist failfast-comfyui-extensions\ (
 :: Check if Derfuu_ComfyUI_ModdedNodes exists to update else install it
 if exist Derfuu_ComfyUI_ModdedNodes\ (
 	cd Derfuu_ComfyUI_ModdedNodes
+	git reset --hard
 	git pull
 	cd ..
 ) else (
@@ -168,6 +177,7 @@ if exist Derfuu_ComfyUI_ModdedNodes\ (
 :: Check if comfy_mtb exists to update else install it
 if exist comfy_mtb\ (
 	cd comfy_mtb
+	git reset --hard
 	git pull
 	cd ..
 ) else (
@@ -192,6 +202,7 @@ cd ..
 :: Check if rgthree-comfy exists to update else install it
 if exist rgthree-comfy\ (
 	cd rgthree-comfy
+	git reset --hard
 	git pull
 	
 	cd ..
@@ -207,6 +218,7 @@ if exist ..\web\extensions\rgthree\ (
 :: Check if ComfyUI-Manager exists to update else install it
 if exist ComfyUI-Manager\ (
 	cd ComfyUI-Manager
+	git reset --hard
 	git pull
 	cd ..
 ) else (
@@ -292,17 +304,14 @@ if not exist detection_Resnet50_Final.pth (
 )
 
 :: Download Face Swap models (currently not available)
-if not exist inswapper_128.onnx (
+:: if not exist inswapper_128.onnx (
 	:: curl -L https://huggingface.co/deepinsight/inswapper/resolve/main/inswapper_128.onnx --output inswapper_128.onnx
-)
-
-
-
+:: )
 
 ECHO:
 ECHO:
 ECHO:
-ECHO All custom node dependencies have been updated and/or installed.
+ECHO All custom node dependencies have been updated and/or installed. >&2
 ECHO:
 ECHO:
 pause
