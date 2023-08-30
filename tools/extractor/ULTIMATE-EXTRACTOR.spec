@@ -47,7 +47,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name='ULTIMATE-EXTRACTOR',
+    name='ULTIMATE-EXTRACTOR-v3_3',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,

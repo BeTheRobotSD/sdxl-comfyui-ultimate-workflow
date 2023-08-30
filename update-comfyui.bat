@@ -215,6 +215,17 @@ if exist ..\web\extensions\rgthree\ (
 	del /Q ..\web\extensions\rgthree
 )
 
+:: Check if ComfyUI-OpenPose-Editor exists to update else install it
+if exist ComfyUI-OpenPose-Editor\ (
+	cd ComfyUI-OpenPose-Editor
+	git reset --hard
+	git pull
+
+	cd ..
+) else (
+	git clone https://github.com/space-nuko/ComfyUI-OpenPose-Editor.git
+)
+
 :: Check if ComfyUI-Manager exists to update else install it
 if exist ComfyUI-Manager\ (
 	cd ComfyUI-Manager
