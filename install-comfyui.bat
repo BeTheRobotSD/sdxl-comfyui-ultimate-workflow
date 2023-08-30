@@ -121,6 +121,9 @@ cd ..
 ECHO Download RGThree Comfy Nodes
 git clone https://github.com/rgthree/rgthree-comfy.git
 
+ECHO Download OpenPose Editor
+git clone https://github.com/space-nuko/ComfyUI-OpenPose-Editor.git
+
 ECHO Download ComfyUI Manager
 git clone https://github.com/ltdrdata/ComfyUI-Manager.git
 
