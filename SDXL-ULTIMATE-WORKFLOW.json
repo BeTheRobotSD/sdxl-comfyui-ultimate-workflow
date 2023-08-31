@@ -1,6 +1,6 @@
 {
-  "last_node_id": 1061,
-  "last_link_id": 1723,
+  "last_node_id": 1063,
+  "last_link_id": 1735,
   "nodes": [
     {
       "id": 53,
@@ -272,7 +272,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 354,
+      "order": 345,
       "mode": 0,
       "inputs": [
         {
@@ -354,7 +354,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 355,
+      "order": 346,
       "mode": 0,
       "inputs": [
         {
@@ -413,7 +413,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 356,
+      "order": 347,
       "mode": 0,
       "inputs": [
         {
@@ -599,7 +599,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 351,
+      "order": 342,
       "mode": 0,
       "inputs": [
         {
@@ -681,7 +681,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 352,
+      "order": 343,
       "mode": 0,
       "inputs": [
         {
@@ -740,7 +740,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 353,
+      "order": 344,
       "mode": 0,
       "inputs": [
         {
@@ -873,7 +873,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 348,
+      "order": 339,
       "mode": 0,
       "inputs": [
         {
@@ -955,7 +955,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 349,
+      "order": 340,
       "mode": 0,
       "inputs": [
         {
@@ -1014,7 +1014,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 350,
+      "order": 341,
       "mode": 0,
       "inputs": [
         {
@@ -1255,7 +1255,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 340,
+      "order": 331,
       "mode": 0,
       "inputs": [
         {
@@ -1355,7 +1355,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 338,
+      "order": 330,
       "mode": 0,
       "inputs": [
         {
@@ -1455,7 +1455,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 336,
+      "order": 329,
       "mode": 0,
       "inputs": [
         {
@@ -1591,7 +1591,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 480,
+      "order": 471,
       "mode": 0,
       "inputs": [
         {
@@ -1627,7 +1627,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 430,
+      "order": 421,
       "mode": 0,
       "inputs": [
         {
@@ -1699,7 +1699,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 439,
+      "order": 430,
       "mode": 0,
       "inputs": [
         {
@@ -1735,7 +1735,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 481,
+      "order": 472,
       "mode": 0,
       "inputs": [
         {
@@ -1771,7 +1771,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 462,
+      "order": 453,
       "mode": 0,
       "inputs": [
         {
@@ -2025,7 +2025,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 431,
+      "order": 422,
       "mode": 0,
       "inputs": [
         {
@@ -2061,7 +2061,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 470,
+      "order": 461,
       "mode": 0,
       "inputs": [
         {
@@ -2100,7 +2100,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 456,
+      "order": 447,
       "mode": 0,
       "inputs": [
         {
@@ -2139,7 +2139,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 423,
+      "order": 414,
       "mode": 0,
       "inputs": [
         {
@@ -2178,7 +2178,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 463,
+      "order": 454,
       "mode": 0,
       "inputs": [
         {
@@ -2214,7 +2214,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 432,
+      "order": 423,
       "mode": 0,
       "inputs": [
         {
@@ -2613,7 +2613,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 429,
+      "order": 420,
       "mode": 0,
       "inputs": [
         {
@@ -2652,7 +2652,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 443,
+      "order": 434,
       "mode": 0,
       "inputs": [
         {
@@ -2691,7 +2691,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 468,
+      "order": 459,
       "mode": 0,
       "inputs": [
         {
@@ -2730,7 +2730,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 311,
+      "order": 310,
       "mode": 0,
       "inputs": [
         {
@@ -2790,7 +2790,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 334,
+      "order": 328,
       "mode": 0,
       "inputs": [
         {
@@ -3106,7 +3106,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 317,
+      "order": 316,
       "mode": 0,
       "inputs": [
         {
@@ -3166,7 +3166,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 329,
+      "order": 325,
       "mode": 0,
       "inputs": [
         {
@@ -3382,7 +3382,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 315,
+      "order": 314,
       "mode": 0,
       "inputs": [
         {
@@ -3442,7 +3442,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 327,
+      "order": 324,
       "mode": 0,
       "inputs": [
         {
@@ -3599,7 +3599,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 313,
+      "order": 312,
       "mode": 0,
       "inputs": [
         {
@@ -3658,7 +3658,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 438,
+      "order": 429,
       "mode": 0,
       "inputs": [
         {
@@ -3697,7 +3697,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 488,
+      "order": 479,
       "mode": 0,
       "inputs": [
         {
@@ -3779,7 +3779,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 387,
+      "order": 378,
       "mode": 0,
       "inputs": [
         {
@@ -3847,7 +3847,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 407,
+      "order": 398,
       "mode": 0,
       "inputs": [
         {
@@ -4064,7 +4064,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 386,
+      "order": 377,
       "mode": 0,
       "inputs": [
         {
@@ -4165,7 +4165,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 385,
+      "order": 376,
       "mode": 0,
       "inputs": [
         {
@@ -6881,7 +6881,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 413,
+      "order": 404,
       "mode": 0,
       "inputs": [
         {
@@ -7410,7 +7410,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 474,
+      "order": 465,
       "mode": 0,
       "inputs": [
         {
@@ -7451,7 +7451,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 459,
+      "order": 450,
       "mode": 0,
       "inputs": [
         {
@@ -7492,7 +7492,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 427,
+      "order": 418,
       "mode": 0,
       "inputs": [
         {
@@ -7534,7 +7534,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 487,
+      "order": 478,
       "mode": 0,
       "inputs": [
         {
@@ -7573,7 +7573,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 469,
+      "order": 460,
       "mode": 0,
       "inputs": [
         {
@@ -7612,7 +7612,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 498,
+      "order": 489,
       "mode": 0,
       "inputs": [
         {
@@ -7651,7 +7651,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 436,
+      "order": 427,
       "mode": 0,
       "inputs": [
         {
@@ -7690,7 +7690,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 444,
+      "order": 435,
       "mode": 0,
       "inputs": [
         {
@@ -7729,7 +7729,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 482,
+      "order": 473,
       "mode": 0,
       "inputs": [
         {
@@ -7768,7 +7768,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 464,
+      "order": 455,
       "mode": 0,
       "inputs": [
         {
@@ -7807,7 +7807,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 495,
+      "order": 486,
       "mode": 0,
       "inputs": [
         {
@@ -7846,7 +7846,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 433,
+      "order": 424,
       "mode": 0,
       "inputs": [
         {
@@ -7885,7 +7885,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 499,
+      "order": 490,
       "mode": 0,
       "inputs": [
         {
@@ -7924,7 +7924,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 473,
+      "order": 464,
       "mode": 0,
       "inputs": [
         {
@@ -7963,7 +7963,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 490,
+      "order": 481,
       "mode": 0,
       "inputs": [
         {
@@ -8002,7 +8002,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 448,
+      "order": 439,
       "mode": 0,
       "inputs": [
         {
@@ -8041,7 +8041,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 440,
+      "order": 431,
       "mode": 0,
       "inputs": [
         {
@@ -8080,7 +8080,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 441,
+      "order": 432,
       "mode": 0,
       "inputs": [
         {
@@ -9118,7 +9118,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 405,
+      "order": 396,
       "mode": 0,
       "inputs": [
         {
@@ -9223,7 +9223,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 409,
+      "order": 400,
       "mode": 0,
       "inputs": [
         {
@@ -9268,7 +9268,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 411,
+      "order": 402,
       "mode": 0,
       "inputs": [
         {
@@ -9312,7 +9312,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 341,
+      "order": 332,
       "mode": 0,
       "inputs": [
         {
@@ -9469,7 +9469,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 384,
+      "order": 375,
       "mode": 0,
       "inputs": [
         {
@@ -9537,7 +9537,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 406,
+      "order": 397,
       "mode": 0,
       "inputs": [
         {
@@ -9643,7 +9643,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 435,
+      "order": 426,
       "mode": 0,
       "inputs": [
         {
@@ -9728,7 +9728,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 408,
+      "order": 399,
       "mode": 0,
       "inputs": [
         {
@@ -9768,7 +9768,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 404,
+      "order": 395,
       "mode": 0,
       "inputs": [
         {
@@ -9924,8 +9924,8 @@
       "id": 813,
       "type": "Text",
       "pos": [
-        -340,
-        -3300
+        -814.9472897668169,
+        -3649.7238495575575
       ],
       "size": {
         "0": 315,
@@ -9960,8 +9960,8 @@
       "id": 809,
       "type": "Text Input Switch",
       "pos": [
-        -190,
-        -3300
+        -664.9472897668177,
+        -3649.7238495575575
       ],
       "size": {
         "0": 267,
@@ -10053,8 +10053,8 @@
       "id": 814,
       "type": "Text",
       "pos": [
-        -340,
-        -3400
+        -814.9472897668169,
+        -3749.7238495575584
       ],
       "size": {
         "0": 315,
@@ -10131,8 +10131,8 @@
       "id": 815,
       "type": "Logic Boolean",
       "pos": [
-        -340,
-        -3520
+        -814.9472897668169,
+        -3869.7238495575566
       ],
       "size": {
         "0": 315,
@@ -10665,7 +10665,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 496,
+      "order": 487,
       "mode": 0,
       "inputs": [
         {
@@ -10701,7 +10701,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 491,
+      "order": 482,
       "mode": 0,
       "inputs": [
         {
@@ -10742,7 +10742,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 494,
+      "order": 485,
       "mode": 0,
       "inputs": [
         {
@@ -10940,7 +10940,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 377,
+      "order": 368,
       "mode": 0,
       "inputs": [
         {
@@ -10979,7 +10979,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 376,
+      "order": 367,
       "mode": 0,
       "inputs": [
         {
@@ -11018,7 +11018,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 375,
+      "order": 366,
       "mode": 0,
       "inputs": [
         {
@@ -11179,7 +11179,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 345,
+      "order": 336,
       "mode": 0,
       "inputs": [
         {
@@ -11261,7 +11261,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 319,
+      "order": 318,
       "mode": 0,
       "inputs": [
         {
@@ -11394,7 +11394,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 347,
+      "order": 338,
       "mode": 0,
       "inputs": [
         {
@@ -13225,7 +13225,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 478,
+      "order": 469,
       "mode": 0,
       "inputs": [
         {
@@ -13411,7 +13411,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 486,
+      "order": 477,
       "mode": 0,
       "inputs": [
         {
@@ -13439,7 +13439,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 477,
+      "order": 468,
       "mode": 0,
       "inputs": [
         {
@@ -13871,7 +13871,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 389,
+      "order": 380,
       "mode": 0,
       "inputs": [
         {
@@ -13969,7 +13969,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 416,
+      "order": 407,
       "mode": 0,
       "inputs": [
         {
@@ -14086,7 +14086,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 414,
+      "order": 405,
       "mode": 0,
       "inputs": [
         {
@@ -14269,7 +14269,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 323,
+      "order": 320,
       "mode": 0,
       "inputs": [
         {
@@ -14467,7 +14467,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 399,
+      "order": 390,
       "mode": 0,
       "inputs": [
         {
@@ -14563,7 +14563,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 410,
+      "order": 401,
       "mode": 0,
       "inputs": [
         {
@@ -14667,7 +14667,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 357,
+      "order": 348,
       "mode": 0,
       "inputs": [
         {
@@ -15132,7 +15132,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 419,
+      "order": 410,
       "mode": 0,
       "inputs": [
         {
@@ -15176,7 +15176,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 417,
+      "order": 408,
       "mode": 0,
       "inputs": [
         {
@@ -15225,7 +15225,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 425,
+      "order": 416,
       "mode": 0,
       "inputs": [
         {
@@ -15264,7 +15264,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 422,
+      "order": 413,
       "mode": 4,
       "inputs": [
         {
@@ -15316,7 +15316,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 361,
+      "order": 352,
       "mode": 0,
       "inputs": [
         {
@@ -15488,7 +15488,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 344,
+      "order": 335,
       "mode": 0,
       "inputs": [
         {
@@ -15548,7 +15548,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 343,
+      "order": 334,
       "mode": 0,
       "inputs": [
         {
@@ -15607,7 +15607,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 332,
+      "order": 327,
       "mode": 0,
       "inputs": [
         {
@@ -15868,7 +15868,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 330,
+      "order": 326,
       "mode": 0,
       "inputs": [
         {
@@ -15967,7 +15967,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 346,
+      "order": 337,
       "mode": 0,
       "inputs": [
         {
@@ -16026,7 +16026,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 358,
+      "order": 349,
       "mode": 0,
       "inputs": [
         {
@@ -16125,7 +16125,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 388,
+      "order": 379,
       "mode": 0,
       "inputs": [
         {
@@ -16266,7 +16266,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 458,
+      "order": 449,
       "mode": 0,
       "inputs": [
         {
@@ -16310,7 +16310,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 403,
+      "order": 394,
       "mode": 0,
       "inputs": [
         {
@@ -16414,7 +16414,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 466,
+      "order": 457,
       "mode": 0,
       "inputs": [
         {
@@ -16496,7 +16496,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 447,
+      "order": 438,
       "mode": 0,
       "inputs": [
         {
@@ -16743,7 +16743,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 453,
+      "order": 444,
       "mode": 0,
       "inputs": [
         {
@@ -16783,7 +16783,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 366,
+      "order": 357,
       "mode": 0,
       "inputs": [
         {
@@ -16882,7 +16882,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 367,
+      "order": 358,
       "mode": 0,
       "inputs": [
         {
@@ -16980,7 +16980,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 373,
+      "order": 364,
       "mode": 0,
       "inputs": [
         {
@@ -17020,7 +17020,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 378,
+      "order": 369,
       "mode": 0,
       "inputs": [
         {
@@ -17123,7 +17123,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 394,
+      "order": 385,
       "mode": 4,
       "inputs": [
         {
@@ -17173,7 +17173,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 379,
+      "order": 370,
       "mode": 0,
       "inputs": [
         {
@@ -17277,7 +17277,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 382,
+      "order": 373,
       "mode": 0,
       "inputs": [
         {
@@ -17380,7 +17380,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 392,
+      "order": 383,
       "mode": 0,
       "inputs": [
         {
@@ -17628,7 +17628,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 364,
+      "order": 355,
       "mode": 0,
       "inputs": [
         {
@@ -17727,7 +17727,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 365,
+      "order": 356,
       "mode": 0,
       "inputs": [
         {
@@ -17826,7 +17826,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 381,
+      "order": 372,
       "mode": 0,
       "inputs": [
         {
@@ -17929,7 +17929,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 391,
+      "order": 382,
       "mode": 0,
       "inputs": [
         {
@@ -18028,7 +18028,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 402,
+      "order": 393,
       "mode": 0,
       "inputs": [
         {
@@ -18127,7 +18127,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 398,
+      "order": 389,
       "mode": 0,
       "inputs": [
         {
@@ -18212,105 +18212,6 @@
       ]
     },
     {
-      "id": 503,
-      "type": "CR Module Output",
-      "pos": [
-        4030,
-        1390
-      ],
-      "size": {
-        "0": 315,
-        "1": 242
-      },
-      "flags": {
-        "collapsed": true,
-        "pinned": true
-      },
-      "order": 401,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "pipe",
-          "type": "PIPE_LINE",
-          "link": 1558
-        },
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": null
-        },
-        {
-          "name": "pos",
-          "type": "CONDITIONING",
-          "link": null
-        },
-        {
-          "name": "neg",
-          "type": "CONDITIONING",
-          "link": null
-        },
-        {
-          "name": "latent",
-          "type": "LATENT",
-          "link": null
-        },
-        {
-          "name": "vae",
-          "type": "VAE",
-          "link": null
-        },
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": null
-        },
-        {
-          "name": "controlnet",
-          "type": "CONTROL_NET",
-          "link": null
-        },
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": null
-        },
-        {
-          "name": "seed",
-          "type": "INT",
-          "link": null,
-          "widget": {
-            "name": "seed",
-            "config": [
-              "INT",
-              {
-                "default": 0,
-                "min": 0,
-                "max": 18446744073709552000
-              }
-            ]
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "pipe",
-          "type": "PIPE_LINE",
-          "links": [
-            714
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CR Module Output"
-      },
-      "widgets_values": [
-        468876868038893,
-        "randomize"
-      ]
-    },
-    {
       "id": 348,
       "type": "Reroute",
       "pos": [
@@ -18324,7 +18225,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 484,
+      "order": 475,
       "mode": 0,
       "inputs": [
         {
@@ -18407,7 +18308,7 @@
         "collapsed": false,
         "pinned": true
       },
-      "order": 472,
+      "order": 463,
       "mode": 0,
       "inputs": [
         {
@@ -18699,7 +18600,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 489,
+      "order": 480,
       "mode": 0,
       "inputs": [
         {
@@ -18738,7 +18639,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 492,
+      "order": 483,
       "mode": 0,
       "inputs": [
         {
@@ -18817,7 +18718,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 362,
+      "order": 353,
       "mode": 0,
       "inputs": [
         {
@@ -18916,7 +18817,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 363,
+      "order": 354,
       "mode": 0,
       "inputs": [
         {
@@ -19015,7 +18916,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 380,
+      "order": 371,
       "mode": 0,
       "inputs": [
         {
@@ -19118,7 +19019,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 390,
+      "order": 381,
       "mode": 0,
       "inputs": [
         {
@@ -19217,7 +19118,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 400,
+      "order": 391,
       "mode": 0,
       "inputs": [
         {
@@ -19315,7 +19216,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 420,
+      "order": 411,
       "mode": 0,
       "inputs": [
         {
@@ -19397,7 +19298,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 415,
+      "order": 406,
       "mode": 0,
       "inputs": [
         {
@@ -19440,7 +19341,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 428,
+      "order": 419,
       "mode": 0,
       "inputs": [
         {
@@ -19503,54 +19404,6 @@
       "bgcolor": "#353"
     },
     {
-      "id": 1013,
-      "type": "Fast Bypasser (rgthree)",
-      "pos": {
-        "0": 4360,
-        "1": -3470,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 0,
-        "6": 0,
-        "7": 0,
-        "8": 0,
-        "9": 0
-      },
-      "size": {
-        "0": 260,
-        "1": 106
-      },
-      "flags": {
-        "collapsed": false,
-        "pinned": true
-      },
-      "order": 434,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1612,
-          "dir": 3
-        },
-        {
-          "name": "",
-          "type": "*",
-          "link": null,
-          "dir": 3
-        }
-      ],
-      "outputs": [],
-      "title": "Controls",
-      "properties": {
-        "collapse_connections": true
-      },
-      "color": "#141c30",
-      "bgcolor": "#283044",
-      "shape": 1
-    },
-    {
       "id": 73,
       "type": "Reroute",
       "pos": [
@@ -19603,7 +19456,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 412,
+      "order": 403,
       "mode": 0,
       "inputs": [
         {
@@ -19900,7 +19753,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 318,
+      "order": 317,
       "mode": 0,
       "inputs": [
         {
@@ -21188,7 +21041,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 445,
+      "order": 436,
       "mode": 0,
       "inputs": [
         {
@@ -21246,7 +21099,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 500,
+      "order": 491,
       "mode": 0,
       "inputs": [
         {
@@ -21304,7 +21157,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 479,
+      "order": 470,
       "mode": 0,
       "inputs": [
         {
@@ -21362,7 +21215,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 493,
+      "order": 484,
       "mode": 0,
       "inputs": [
         {
@@ -21420,7 +21273,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 451,
+      "order": 442,
       "mode": 0,
       "inputs": [
         {
@@ -22829,7 +22682,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 325,
+      "order": 322,
       "mode": 0,
       "inputs": [
         {
@@ -23017,53 +22870,6 @@
         "example.png",
         "image"
       ]
-    },
-    {
-      "id": 1014,
-      "type": "Fast Muter (rgthree)",
-      "pos": {
-        "0": 4360,
-        "1": -3510,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 0,
-        "6": 0,
-        "7": 0,
-        "8": 0,
-        "9": 0
-      },
-      "size": {
-        "0": 260,
-        "1": 58
-      },
-      "flags": {
-        "pinned": true
-      },
-      "order": 335,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1706,
-          "dir": 3
-        },
-        {
-          "name": "",
-          "type": "*",
-          "link": null,
-          "dir": 3
-        }
-      ],
-      "outputs": [],
-      "title": "Controls",
-      "properties": {
-        "collapse_connections": true
-      },
-      "color": "#141c30",
-      "bgcolor": "#283044",
-      "shape": 4
     },
     {
       "id": 176,
@@ -23545,7 +23351,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 501,
+      "order": 492,
       "mode": 0,
       "inputs": [
         {
@@ -23584,7 +23390,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 502,
+      "order": 493,
       "mode": 0,
       "inputs": [
         {
@@ -23623,7 +23429,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 471,
+      "order": 462,
       "mode": 0,
       "inputs": [
         {
@@ -23662,7 +23468,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 475,
+      "order": 466,
       "mode": 0,
       "inputs": [
         {
@@ -23686,154 +23492,6 @@
         "showOutputText": false,
         "horizontal": false
       }
-    },
-    {
-      "id": 1029,
-      "type": "Node Collector (rgthree)",
-      "pos": {
-        "0": 1220,
-        "1": -2700,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 0,
-        "6": 0,
-        "7": 0,
-        "8": 0,
-        "9": 0
-      },
-      "size": {
-        "0": 140,
-        "1": 46
-      },
-      "flags": {
-        "pinned": true,
-        "collapsed": true
-      },
-      "order": 320,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1674,
-          "dir": 3
-        },
-        {
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "Output",
-          "type": "*",
-          "links": [
-            1677
-          ],
-          "dir": 4,
-          "slot_index": 0
-        }
-      ],
-      "title": "mute",
-      "properties": {}
-    },
-    {
-      "id": 1030,
-      "type": "Node Collector (rgthree)",
-      "pos": {
-        "0": 1380,
-        "1": -2700,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 0,
-        "6": 0,
-        "7": 0,
-        "8": 0,
-        "9": 0
-      },
-      "size": {
-        "0": 140,
-        "1": 46
-      },
-      "flags": {
-        "pinned": true,
-        "collapsed": true
-      },
-      "order": 308,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1676,
-          "dir": 3
-        },
-        {
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "Output",
-          "type": "*",
-          "links": [
-            1674
-          ],
-          "dir": 4,
-          "slot_index": 0
-        }
-      ],
-      "title": "mute",
-      "properties": {}
-    },
-    {
-      "id": 1052,
-      "type": "Fast Bypasser (rgthree)",
-      "pos": {
-        "0": 1140,
-        "1": -3490,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 0,
-        "6": 0,
-        "7": 0,
-        "8": 0,
-        "9": 0
-      },
-      "size": {
-        "0": 270,
-        "1": 126
-      },
-      "flags": {
-        "pinned": true
-      },
-      "order": 483,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1673,
-          "dir": 3
-        },
-        {
-          "name": "",
-          "type": "*",
-          "link": null,
-          "dir": 3
-        }
-      ],
-      "outputs": [],
-      "title": "Controls",
-      "properties": {},
-      "color": "#141c30",
-      "bgcolor": "#283044"
     },
     {
       "id": 1038,
@@ -24003,7 +23661,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 360,
+      "order": 351,
       "mode": 0,
       "inputs": [
         {
@@ -24101,7 +23759,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 374,
+      "order": 365,
       "mode": 0,
       "inputs": [
         {
@@ -24141,7 +23799,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 342,
+      "order": 333,
       "mode": 0,
       "inputs": [
         {
@@ -24223,7 +23881,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 359,
+      "order": 350,
       "mode": 0,
       "inputs": [
         {
@@ -24322,7 +23980,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 368,
+      "order": 359,
       "mode": 0,
       "inputs": [
         {
@@ -24371,7 +24029,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 369,
+      "order": 360,
       "mode": 0,
       "inputs": [
         {
@@ -24420,7 +24078,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 393,
+      "order": 384,
       "mode": 4,
       "inputs": [
         {
@@ -24456,54 +24114,6 @@
       ]
     },
     {
-      "id": 973,
-      "type": "Fast Bypasser (rgthree)",
-      "pos": {
-        "0": 2220,
-        "1": -3470,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 0,
-        "6": 0,
-        "7": 0,
-        "8": 0,
-        "9": 0
-      },
-      "size": {
-        "0": 260,
-        "1": 106
-      },
-      "flags": {
-        "collapsed": false,
-        "pinned": true
-      },
-      "order": 465,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1686,
-          "dir": 3
-        },
-        {
-          "name": "",
-          "type": "*",
-          "link": null,
-          "dir": 3
-        }
-      ],
-      "outputs": [],
-      "title": "Controls",
-      "properties": {
-        "collapse_connections": true
-      },
-      "color": "#141c30",
-      "bgcolor": "#283044",
-      "shape": 1
-    },
-    {
       "id": 976,
       "type": "Reroute",
       "pos": [
@@ -24517,7 +24127,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 460,
+      "order": 451,
       "mode": 0,
       "inputs": [
         {
@@ -24543,58 +24153,6 @@
       }
     },
     {
-      "id": 1033,
-      "type": "Node Collector (rgthree)",
-      "pos": {
-        "0": 1380,
-        "1": -2620,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 0,
-        "6": 0,
-        "7": 0,
-        "8": 0,
-        "9": 0
-      },
-      "size": {
-        "0": 140,
-        "1": 46
-      },
-      "flags": {
-        "pinned": true,
-        "collapsed": true
-      },
-      "order": 316,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1683,
-          "dir": 3
-        },
-        {
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "Output",
-          "type": "*",
-          "links": [
-            1684
-          ],
-          "dir": 4,
-          "slot_index": 0
-        }
-      ],
-      "title": "mute",
-      "properties": {}
-    },
-    {
       "id": 972,
       "type": "Reroute",
       "pos": [
@@ -24608,7 +24166,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 457,
+      "order": 448,
       "mode": 0,
       "inputs": [
         {
@@ -24701,7 +24259,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 397,
+      "order": 388,
       "mode": 4,
       "inputs": [
         {
@@ -24750,7 +24308,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 450,
+      "order": 441,
       "mode": 4,
       "inputs": [
         {
@@ -24810,7 +24368,7 @@
         "pinned": true,
         "collapsed": true
       },
-      "order": 454,
+      "order": 445,
       "mode": 0,
       "inputs": [
         {
@@ -24849,53 +24407,6 @@
       ],
       "title": "bypass",
       "properties": {}
-    },
-    {
-      "id": 974,
-      "type": "Fast Muter (rgthree)",
-      "pos": {
-        "0": 2220,
-        "1": -3510,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 0,
-        "6": 0,
-        "7": 0,
-        "8": 0,
-        "9": 0
-      },
-      "size": {
-        "0": 260,
-        "1": 58
-      },
-      "flags": {
-        "pinned": true
-      },
-      "order": 339,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1685,
-          "dir": 3
-        },
-        {
-          "name": "",
-          "type": "*",
-          "link": null,
-          "dir": 3
-        }
-      ],
-      "outputs": [],
-      "title": "Controls",
-      "properties": {
-        "collapse_connections": true
-      },
-      "color": "#141c30",
-      "bgcolor": "#283044",
-      "shape": 4
     },
     {
       "id": 98,
@@ -25066,7 +24577,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 371,
+      "order": 362,
       "mode": 0,
       "inputs": [
         {
@@ -25115,7 +24626,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 396,
+      "order": 387,
       "mode": 4,
       "inputs": [
         {
@@ -25164,7 +24675,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 476,
+      "order": 467,
       "mode": 4,
       "inputs": [
         {
@@ -25202,101 +24713,6 @@
       ]
     },
     {
-      "id": 996,
-      "type": "Fast Bypasser (rgthree)",
-      "pos": {
-        "0": 3290,
-        "1": -3470,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 0,
-        "6": 0,
-        "7": 0,
-        "8": 0,
-        "9": 0
-      },
-      "size": {
-        "0": 260,
-        "1": 106
-      },
-      "flags": {
-        "collapsed": false,
-        "pinned": true
-      },
-      "order": 497,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1576,
-          "dir": 3
-        },
-        {
-          "name": "",
-          "type": "*",
-          "link": null,
-          "dir": 3
-        }
-      ],
-      "outputs": [],
-      "title": "Controls",
-      "properties": {
-        "collapse_connections": true
-      },
-      "color": "#141c30",
-      "bgcolor": "#283044",
-      "shape": 1
-    },
-    {
-      "id": 997,
-      "type": "Fast Muter (rgthree)",
-      "pos": {
-        "0": 3290,
-        "1": -3510,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 0,
-        "6": 0,
-        "7": 0,
-        "8": 0,
-        "9": 0
-      },
-      "size": {
-        "0": 260,
-        "1": 58
-      },
-      "flags": {
-        "pinned": true
-      },
-      "order": 337,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1699,
-          "dir": 3
-        },
-        {
-          "name": "",
-          "type": "*",
-          "link": null,
-          "dir": 3
-        }
-      ],
-      "outputs": [],
-      "title": "Controls",
-      "properties": {
-        "collapse_connections": true
-      },
-      "color": "#141c30",
-      "bgcolor": "#283044",
-      "shape": 4
-    },
-    {
       "id": 1040,
       "type": "Node Collector (rgthree)",
       "pos": {
@@ -25319,7 +24735,7 @@
         "pinned": true,
         "collapsed": true
       },
-      "order": 326,
+      "order": 323,
       "mode": 0,
       "inputs": [
         {
@@ -25338,114 +24754,7 @@
         {
           "name": "Output",
           "type": "*",
-          "links": [
-            1699
-          ],
-          "dir": 4,
-          "slot_index": 0
-        }
-      ],
-      "title": "mute",
-      "properties": {}
-    },
-    {
-      "id": 1034,
-      "type": "Node Collector (rgthree)",
-      "pos": {
-        "0": 2240,
-        "1": -2620,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 0,
-        "6": 0,
-        "7": 0,
-        "8": 0,
-        "9": 0
-      },
-      "size": {
-        "0": 140,
-        "1": 46
-      },
-      "flags": {
-        "pinned": true,
-        "collapsed": true
-      },
-      "order": 328,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1684,
-          "dir": 3
-        },
-        {
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "Output",
-          "type": "*",
-          "links": [
-            1685
-          ],
-          "dir": 4,
-          "slot_index": 0
-        }
-      ],
-      "title": "mute",
-      "properties": {}
-    },
-    {
-      "id": 1039,
-      "type": "Node Collector (rgthree)",
-      "pos": {
-        "0": 1380,
-        "1": -2540,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 0,
-        "6": 0,
-        "7": 0,
-        "8": 0,
-        "9": 0
-      },
-      "size": {
-        "0": 140,
-        "1": 46
-      },
-      "flags": {
-        "pinned": true,
-        "collapsed": true
-      },
-      "order": 314,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1693,
-          "dir": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "Output",
-          "type": "*",
-          "links": [
-            1698
-          ],
+          "links": [],
           "dir": 4,
           "slot_index": 0
         }
@@ -25476,7 +24785,7 @@
         "pinned": true,
         "collapsed": true
       },
-      "order": 426,
+      "order": 417,
       "mode": 0,
       "inputs": [
         {
@@ -25550,7 +24859,7 @@
         "pinned": true,
         "collapsed": true
       },
-      "order": 467,
+      "order": 458,
       "mode": 0,
       "inputs": [
         {
@@ -25614,7 +24923,7 @@
         "pinned": true,
         "collapsed": true
       },
-      "order": 485,
+      "order": 476,
       "mode": 0,
       "inputs": [
         {
@@ -25771,7 +25080,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 370,
+      "order": 361,
       "mode": 0,
       "inputs": [
         {
@@ -25820,7 +25129,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 395,
+      "order": 386,
       "mode": 4,
       "inputs": [
         {
@@ -25869,7 +25178,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 418,
+      "order": 409,
       "mode": 4,
       "inputs": [
         {
@@ -25929,7 +25238,7 @@
         "pinned": true,
         "collapsed": true
       },
-      "order": 324,
+      "order": 321,
       "mode": 0,
       "inputs": [
         {
@@ -25948,61 +25257,7 @@
         {
           "name": "Output",
           "type": "*",
-          "links": [
-            1706
-          ],
-          "dir": 4,
-          "slot_index": 0
-        }
-      ],
-      "title": "mute",
-      "properties": {}
-    },
-    {
-      "id": 1043,
-      "type": "Node Collector (rgthree)",
-      "pos": {
-        "0": 1380,
-        "1": -2460,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 0,
-        "6": 0,
-        "7": 0,
-        "8": 0,
-        "9": 0
-      },
-      "size": {
-        "0": 140,
-        "1": 46
-      },
-      "flags": {
-        "pinned": true,
-        "collapsed": true
-      },
-      "order": 312,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1704,
-          "dir": 3
-        },
-        {
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "Output",
-          "type": "*",
-          "links": [
-            1705
-          ],
+          "links": [],
           "dir": 4,
           "slot_index": 0
         }
@@ -26024,7 +25279,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 424,
+      "order": 415,
       "mode": 0,
       "inputs": [
         {
@@ -26125,7 +25380,7 @@
         "pinned": true,
         "collapsed": true
       },
-      "order": 421,
+      "order": 412,
       "mode": 0,
       "inputs": [
         {
@@ -26180,7 +25435,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 321,
+      "order": 319,
       "mode": 0,
       "inputs": [
         {
@@ -26278,7 +25533,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 383,
+      "order": 374,
       "mode": 0,
       "inputs": [
         {
@@ -26423,7 +25678,7 @@
         "collapsed": false,
         "pinned": true
       },
-      "order": 449,
+      "order": 440,
       "mode": 0,
       "inputs": [
         {
@@ -26466,7 +25721,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 455,
+      "order": 446,
       "mode": 0,
       "inputs": [
         {
@@ -26641,7 +25896,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 461,
+      "order": 452,
       "mode": 4,
       "inputs": [
         {
@@ -26781,202 +26036,6 @@
       }
     },
     {
-      "id": 1051,
-      "type": "Fast Muter (rgthree)",
-      "pos": {
-        "0": 1140,
-        "1": -3510,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 0,
-        "6": 0,
-        "7": 0,
-        "8": 0,
-        "9": 0
-      },
-      "size": {
-        "0": 270,
-        "1": 58
-      },
-      "flags": {
-        "pinned": true,
-        "collapsed": false
-      },
-      "order": 331,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1677,
-          "dir": 3
-        },
-        {
-          "name": "",
-          "type": "*",
-          "link": null,
-          "dir": 3
-        }
-      ],
-      "outputs": [],
-      "title": "Controls",
-      "properties": {
-        "collapse_connections": true
-      },
-      "color": "#141c30",
-      "bgcolor": "#283044",
-      "shape": 4
-    },
-    {
-      "id": 1049,
-      "type": "Fast Bypasser (rgthree)",
-      "pos": {
-        "0": 80,
-        "1": -3490,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 0,
-        "6": 0,
-        "7": 0,
-        "8": 0,
-        "9": 0
-      },
-      "size": {
-        "0": 270,
-        "1": 174
-      },
-      "flags": {
-        "pinned": true
-      },
-      "order": 503,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1664,
-          "dir": 3
-        },
-        {
-          "name": "",
-          "type": "*",
-          "link": null,
-          "dir": 3
-        }
-      ],
-      "outputs": [],
-      "title": "Controls",
-      "properties": {},
-      "color": "#141c30",
-      "bgcolor": "#283044"
-    },
-    {
-      "id": 1050,
-      "type": "Node Collector (rgthree)",
-      "pos": {
-        "0": 190,
-        "1": -2780,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 0,
-        "6": 0,
-        "7": 0,
-        "8": 0,
-        "9": 0
-      },
-      "size": {
-        "0": 140,
-        "1": 46
-      },
-      "flags": {
-        "collapsed": true,
-        "pinned": true
-      },
-      "order": 322,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1717,
-          "dir": 3
-        },
-        {
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "Output",
-          "type": "*",
-          "links": [
-            1719
-          ],
-          "dir": 4,
-          "slot_index": 0
-        }
-      ],
-      "title": "mute",
-      "properties": {}
-    },
-    {
-      "id": 1045,
-      "type": "Node Collector (rgthree)",
-      "pos": {
-        "0": 1380,
-        "1": -2780,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 0,
-        "6": 0,
-        "7": 0,
-        "8": 0,
-        "9": 0
-      },
-      "size": {
-        "0": 140,
-        "1": 46
-      },
-      "flags": {
-        "pinned": true,
-        "collapsed": true
-      },
-      "order": 310,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1716,
-          "dir": 3
-        },
-        {
-          "name": "",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "Output",
-          "type": "*",
-          "links": [
-            1717
-          ],
-          "dir": 4,
-          "slot_index": 0
-        }
-      ],
-      "title": "mute",
-      "properties": {}
-    },
-    {
       "id": 1054,
       "type": "Node Collector (rgthree)",
       "pos": {
@@ -27043,7 +26102,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 372,
+      "order": 363,
       "mode": 0,
       "inputs": [
         {
@@ -27135,7 +26194,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 446,
+      "order": 437,
       "mode": 0,
       "inputs": [
         {
@@ -27179,7 +26238,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 437,
+      "order": 428,
       "mode": 0,
       "inputs": [
         {
@@ -27218,7 +26277,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 442,
+      "order": 433,
       "mode": 0,
       "inputs": [
         {
@@ -27258,7 +26317,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 452,
+      "order": 443,
       "mode": 0,
       "inputs": [
         {
@@ -27295,10 +26354,10 @@
         760,
         2910
       ],
-      "size": [
-        230,
-        250
-      ],
+      "size": {
+        "0": 230,
+        "1": 250
+      },
       "flags": {
         "pinned": true
       },
@@ -27447,10 +26506,10 @@
         1020,
         2890
       ],
-      "size": [
-        210,
-        318
-      ],
+      "size": {
+        "0": 210,
+        "1": 318
+      },
       "flags": {
         "pinned": true
       },
@@ -27516,8 +26575,446 @@
       "bgcolor": "#353"
     },
     {
-      "id": 1055,
-      "type": "Fast Muter (rgthree)",
+      "id": 503,
+      "type": "CR Module Output",
+      "pos": [
+        4030,
+        1390
+      ],
+      "size": {
+        "0": 315,
+        "1": 242
+      },
+      "flags": {
+        "collapsed": true,
+        "pinned": true
+      },
+      "order": 392,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "pipe",
+          "type": "PIPE_LINE",
+          "link": 1558
+        },
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": null
+        },
+        {
+          "name": "pos",
+          "type": "CONDITIONING",
+          "link": null
+        },
+        {
+          "name": "neg",
+          "type": "CONDITIONING",
+          "link": null
+        },
+        {
+          "name": "latent",
+          "type": "LATENT",
+          "link": null
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": null
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": null
+        },
+        {
+          "name": "controlnet",
+          "type": "CONTROL_NET",
+          "link": null
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "link": null,
+          "widget": {
+            "name": "seed",
+            "config": [
+              "INT",
+              {
+                "default": 0,
+                "min": 0,
+                "max": 18446744073709552000
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "pipe",
+          "type": "PIPE_LINE",
+          "links": [
+            714
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CR Module Output"
+      },
+      "widgets_values": [
+        468876868038893,
+        "randomize"
+      ]
+    },
+    {
+      "id": 1030,
+      "type": "Node Collector (rgthree)",
+      "pos": {
+        "0": 1380,
+        "1": -2700,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": {
+        "0": 140,
+        "1": 46
+      },
+      "flags": {
+        "pinned": true,
+        "collapsed": true
+      },
+      "order": 308,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1676,
+          "dir": 3
+        },
+        {
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Output",
+          "type": "*",
+          "links": [
+            1730
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "title": "mute",
+      "properties": {}
+    },
+    {
+      "id": 1033,
+      "type": "Node Collector (rgthree)",
+      "pos": {
+        "0": 1380,
+        "1": -2620,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": {
+        "0": 140,
+        "1": 46
+      },
+      "flags": {
+        "pinned": true,
+        "collapsed": true
+      },
+      "order": 315,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1683,
+          "dir": 3
+        },
+        {
+          "name": "",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Output",
+          "type": "*",
+          "links": [],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "title": "mute",
+      "properties": {}
+    },
+    {
+      "id": 1039,
+      "type": "Node Collector (rgthree)",
+      "pos": {
+        "0": 1380,
+        "1": -2540,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": {
+        "0": 140,
+        "1": 46
+      },
+      "flags": {
+        "pinned": true,
+        "collapsed": true
+      },
+      "order": 313,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1693,
+          "dir": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "",
+          "type": "*",
+          "link": null,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Output",
+          "type": "*",
+          "links": [
+            1698
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "title": "mute",
+      "properties": {}
+    },
+    {
+      "id": 1043,
+      "type": "Node Collector (rgthree)",
+      "pos": {
+        "0": 1380,
+        "1": -2460,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": {
+        "0": 140,
+        "1": 46
+      },
+      "flags": {
+        "pinned": true,
+        "collapsed": true
+      },
+      "order": 311,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1704,
+          "dir": 3
+        },
+        {
+          "name": "",
+          "type": "*",
+          "link": null,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Output",
+          "type": "*",
+          "links": [
+            1705
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "title": "mute",
+      "properties": {}
+    },
+    {
+      "id": 1045,
+      "type": "Node Collector (rgthree)",
+      "pos": {
+        "0": 1380,
+        "1": -2780,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": {
+        "0": 140,
+        "1": 126
+      },
+      "flags": {
+        "pinned": true,
+        "collapsed": true
+      },
+      "order": 494,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1716,
+          "dir": 3
+        },
+        {
+          "name": "",
+          "type": "*",
+          "link": 1730,
+          "dir": 3
+        },
+        {
+          "name": "",
+          "type": "*",
+          "link": 1731,
+          "dir": 3
+        },
+        {
+          "name": "",
+          "type": "*",
+          "link": 1732,
+          "dir": 3
+        },
+        {
+          "name": "",
+          "type": "*",
+          "link": 1733,
+          "dir": 3
+        },
+        {
+          "name": "",
+          "type": "*",
+          "link": null,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Output",
+          "type": "*",
+          "links": [
+            1717
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "title": "mute",
+      "properties": {}
+    },
+    {
+      "id": 1050,
+      "type": "Node Collector (rgthree)",
+      "pos": {
+        "0": -170,
+        "1": -2780,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": {
+        "0": 140,
+        "1": 46
+      },
+      "flags": {
+        "collapsed": true,
+        "pinned": true
+      },
+      "order": 496,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1717,
+          "dir": 3
+        },
+        {
+          "name": "",
+          "type": "*",
+          "link": null,
+          "dir": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Output",
+          "type": "*",
+          "links": [
+            1734
+          ],
+          "dir": 4,
+          "slot_index": 0
+        }
+      ],
+      "title": "mute",
+      "properties": {}
+    },
+    {
+      "id": 1049,
+      "type": "Fast Bypasser (rgthree)",
       "pos": {
         "0": 80,
         "1": -3510,
@@ -27532,19 +27029,18 @@
       },
       "size": {
         "0": 270,
-        "1": 58
+        "1": 174
       },
       "flags": {
-        "pinned": true,
-        "collapsed": false
+        "pinned": true
       },
-      "order": 333,
+      "order": 495,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 1719,
+          "link": 1664,
           "dir": 3
         },
         {
@@ -27560,8 +27056,241 @@
         "collapse_connections": true
       },
       "color": "#141c30",
-      "bgcolor": "#283044",
-      "shape": 4
+      "bgcolor": "#283044"
+    },
+    {
+      "id": 1052,
+      "type": "Fast Bypasser (rgthree)",
+      "pos": {
+        "0": 1140,
+        "1": -3510,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": {
+        "0": 270,
+        "1": 126
+      },
+      "flags": {
+        "pinned": true
+      },
+      "order": 474,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1673,
+          "dir": 3
+        },
+        {
+          "name": "",
+          "type": "*",
+          "link": null,
+          "dir": 3
+        }
+      ],
+      "outputs": [],
+      "title": "Controls",
+      "properties": {
+        "collapse_connections": true
+      },
+      "color": "#141c30",
+      "bgcolor": "#283044"
+    },
+    {
+      "id": 973,
+      "type": "Fast Bypasser (rgthree)",
+      "pos": {
+        "0": 2220,
+        "1": -3510,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": {
+        "0": 260,
+        "1": 106
+      },
+      "flags": {
+        "collapsed": false,
+        "pinned": true
+      },
+      "order": 456,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1686,
+          "dir": 3
+        },
+        {
+          "name": "",
+          "type": "*",
+          "link": null,
+          "dir": 3
+        }
+      ],
+      "outputs": [],
+      "title": "Controls",
+      "properties": {
+        "collapse_connections": true
+      },
+      "color": "#141c30",
+      "bgcolor": "#283044"
+    },
+    {
+      "id": 996,
+      "type": "Fast Bypasser (rgthree)",
+      "pos": {
+        "0": 3290,
+        "1": -3510,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": {
+        "0": 260,
+        "1": 106
+      },
+      "flags": {
+        "collapsed": false,
+        "pinned": true
+      },
+      "order": 488,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1576,
+          "dir": 3
+        },
+        {
+          "name": "",
+          "type": "*",
+          "link": null,
+          "dir": 3
+        }
+      ],
+      "outputs": [],
+      "title": "Controls",
+      "properties": {
+        "collapse_connections": true
+      },
+      "color": "#141c30",
+      "bgcolor": "#283044"
+    },
+    {
+      "id": 1013,
+      "type": "Fast Bypasser (rgthree)",
+      "pos": {
+        "0": 4360,
+        "1": -3510,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": {
+        "0": 260,
+        "1": 106
+      },
+      "flags": {
+        "collapsed": false,
+        "pinned": true
+      },
+      "order": 425,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1612,
+          "dir": 3
+        },
+        {
+          "name": "",
+          "type": "*",
+          "link": null,
+          "dir": 3
+        }
+      ],
+      "outputs": [],
+      "title": "Controls",
+      "properties": {
+        "collapse_connections": true
+      },
+      "color": "#141c30",
+      "bgcolor": "#283044"
+    },
+    {
+      "id": 1062,
+      "type": "Fast Muter (rgthree)",
+      "pos": {
+        "0": -320,
+        "1": -3510,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "size": [
+        280,
+        160
+      ],
+      "flags": {
+        "pinned": true,
+        "collapsed": false
+      },
+      "order": 497,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1734,
+          "dir": 3
+        },
+        {
+          "name": "",
+          "type": "*",
+          "link": null,
+          "dir": 3
+        }
+      ],
+      "outputs": [],
+      "title": "Controls",
+      "properties": {
+        "collapse_connections": true
+      },
+      "color": "#141c30",
+      "bgcolor": "#283044"
     }
   ],
   "links": [
@@ -32366,14 +32095,6 @@
       "*"
     ],
     [
-      1674,
-      1030,
-      0,
-      1029,
-      0,
-      "*"
-    ],
-    [
       1675,
       465,
       0,
@@ -32386,14 +32107,6 @@
       1038,
       0,
       1030,
-      0,
-      "*"
-    ],
-    [
-      1677,
-      1029,
-      0,
-      1051,
       0,
       "*"
     ],
@@ -32442,22 +32155,6 @@
       1035,
       0,
       1033,
-      0,
-      "*"
-    ],
-    [
-      1684,
-      1033,
-      0,
-      1034,
-      0,
-      "*"
-    ],
-    [
-      1685,
-      1034,
-      0,
-      974,
       0,
       "*"
     ],
@@ -32566,14 +32263,6 @@
       "*"
     ],
     [
-      1699,
-      1040,
-      0,
-      997,
-      0,
-      "*"
-    ],
-    [
       1700,
       102,
       0,
@@ -32618,14 +32307,6 @@
       1043,
       0,
       1044,
-      0,
-      "*"
-    ],
-    [
-      1706,
-      1044,
-      0,
-      1014,
       0,
       "*"
     ],
@@ -32678,14 +32359,6 @@
       "*"
     ],
     [
-      1719,
-      1050,
-      0,
-      1055,
-      0,
-      "*"
-    ],
-    [
       1721,
       246,
       0,
@@ -32698,6 +32371,62 @@
       849,
       0,
       850,
+      0,
+      "*"
+    ],
+    [
+      1725,
+      1050,
+      0,
+      1062,
+      0,
+      "*"
+    ],
+    [
+      1730,
+      1030,
+      0,
+      1045,
+      1,
+      "*"
+    ],
+    [
+      1731,
+      1033,
+      0,
+      1045,
+      2,
+      "*"
+    ],
+    [
+      1732,
+      1039,
+      0,
+      1045,
+      3,
+      "*"
+    ],
+    [
+      1733,
+      1043,
+      0,
+      1045,
+      4,
+      "*"
+    ],
+    [
+      1734,
+      1050,
+      0,
+      1062,
+      0,
+      "*"
+    ],
+    [
+      1735,
+      1033,
+      0,
+      974,
       0,
       "*"
     ]
@@ -33086,8 +32815,8 @@
     {
       "title": "Image Output Folder Name",
       "bounding": [
-        -360,
-        -3600,
+        -835,
+        -3950,
         360,
         324
       ],
@@ -33102,6 +32831,16 @@
         642
       ],
       "color": "#a99eeb"
+    },
+    {
+      "title": "Module On/Off",
+      "bounding": [
+        -352,
+        -3599,
+        341,
+        277
+      ],
+      "color": "#d7ae7d"
     }
   ],
   "config": {},
