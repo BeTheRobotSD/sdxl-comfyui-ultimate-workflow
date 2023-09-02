@@ -177,6 +177,13 @@ curl -L https://github.com/xinntao/facexlib/releases/download/v0.1.0/detection_R
 curl -L https://huggingface.co/deepinsight/inswapper/resolve/main/inswapper_128.onnx --output inswapper_128.onnx
 
 
+:: Change directory back to ComfyUI Root
+cd ..\..\..\
+
+:: Copy over widgetInputs.js with temporary fix for comfy_mtb
+curl -L https://gist.githubusercontent.com/sliceofbytes/d1b6eec92896252606bb93dbe1cc31aa/raw/a2aceeac016acf89536414f03398ad799262779e/widgetInputs.js > ComfyUI_windows_portable\ComfyUI\web\extensions\core\widgetInputs.js
+
+
 ECHO:
 ECHO:
 ECHO:
